@@ -73,6 +73,15 @@ public class CrapsMain {
 
     public static void main(String[] args) throws Exception {
 
+        System.out.println("Welcome to the game of Craps!");
+        System.out.println("\t1. you start with 1000 money in bank");
+        System.out.println("\t2. start each round by entering the amount to bet");
+        System.out.println("\t3. in the first round, if you roll a sum of 7 or 11 you win. 2, 3, or 12 you lose");
+        System.out.println("\t4. if the above conditions did not satisfy, you enter a point phase");
+        System.out.println(
+                "\t5. in a point phase, you keep rolling until you roll the same number as step 3 or a 7 you lose");
+        System.out.println("\t6. your bet will be either added or subtracted from your bank automatically");
+
         char choiceToContinue = 'y'; // decides whether to play again
         // defaults to yes to enter first loop
 
